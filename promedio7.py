@@ -135,7 +135,7 @@ def crear_gui():
 
     root.mainloop()
 
-# === INICIAR SERIAL Y HILOS ===
+# === INICIAR SERIAL E HILOS ===
 try:
     ser = serial.Serial(PUERTO_SERIAL, BAUDIOS)
     print(f"Conectado a {PUERTO_SERIAL}")
